@@ -8,7 +8,10 @@
 
         public string City { get; set; }
 
-        public string Number { get; set; }
+        public int NumberCode { get; set; }
+
+        public string Phone { get; set; }
+
 
         public Person(string name,  int age, string city, string number)
         {
@@ -18,13 +21,9 @@
             City = city;
         }
 
-        Person() {
-
-        }
-
         public void Print()
         {
-            Console.Write("Персона");
+            Console.WriteLine("Персона");
         }
 
     }

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "DBFirst_Car_Site\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Models\\Person.cs*",
+              "RelativeToolTip": "DBFirst_Car_Site\\Models\\Person.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T13:28:39.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
