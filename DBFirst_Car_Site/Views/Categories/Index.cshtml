@@ -6,6 +6,13 @@
 
 <h1>Index</h1>
 
+@if (TempData["AlertMessage"] != null)
+{
+    <script>
+        alert('@Html.Raw(TempData["AlertMessage"])');
+    </script>
+}
+
 <p>
     <a asp-action="Create">Create New</a>
 </p>

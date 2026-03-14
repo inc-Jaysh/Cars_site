@@ -1,12 +1,13 @@
-﻿using System;
+﻿using DBFirst_Car_Site.Data;
+using DBFirst_Car_Site.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using DBFirst_Car_Site.Data;
-using DBFirst_Car_Site.Models;
 
 namespace DBFirst_Car_Site.Controllers
 {
@@ -139,22 +140,34 @@ namespace DBFirst_Car_Site.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            // Вызываем хранимую процедуру
+            var resultParam = new SqlParameter
+            {
+                ParameterName = "@Result",
+                SqlDbType = System.Data.SqlDbType.Int,
+                Direction = System.Data.ParameterDirection.Output
+            };
+
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC CheckCarCategory @SearchIdCat = {0}, @Result = @Result OUTPUT",
+                id, resultParam
+            );
+
+            int result = (int)resultParam.Value;
+
+            if (result == 1)
+            {
+                TempData["AlertMessage"] = "Нельзя удалить категорию, у неё есть связанные машины!";
+                return RedirectToAction(nameof(Index));
+            }
+
             var category = await _context.Categories.FindAsync(id);
             if (category != null)
             {
                 _context.Categories.Remove(category);
-            }
-
-            try
-            {
                 await _context.SaveChangesAsync();
             }
-            catch (Exception ex) 
-            {
-                return Content("Ошибка");
-            }
-            
-            
+
             return RedirectToAction(nameof(Index));
         }
 
