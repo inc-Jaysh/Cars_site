@@ -13,9 +13,9 @@
         public string Phone { get; set; }
 
 
-        public Person(string name,  int age, string city, string number)
+        public Person(string name,  int age, string city, int number)
         {
-            Number = number;
+            NumberCode = number;
             Name = name;
             Age = age;
             City = city;
