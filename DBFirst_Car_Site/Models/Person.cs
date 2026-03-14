@@ -10,6 +10,14 @@
 
         public string Number { get; set; }
 
+        public Person(string name,  int age, string city, string number)
+        {
+            Number = number;
+            Name = name;
+            Age = age;
+            City = city;
+        }
+
         Person() {
 
         }
