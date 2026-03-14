@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|c:\\users\\buryk\\source\\repos\\dbfirst_car_site\\dbfirst_car_site\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27B80CAE-FA67-3786-49FB-58D45247040A}|DBFirst_Car_Site\\DBFirst_Car_Site.csproj|solutionrelative:dbfirst_car_site\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +39,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "DBFirst_Car_Site\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Views\\Categories\\Index.cshtml*",
-              "RelativeToolTip": "DBFirst_Car_Site\\Views\\Categories\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T11:36:17.691Z",
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "DBFirst_Car_Site\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Models\\Person.cs*",
+              "RelativeToolTip": "DBFirst_Car_Site\\Models\\Person.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T13:21:54.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "DBFirst_Car_Site\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "DBFirst_Car_Site\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T11:36:17.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "DBFirst_Car_Site\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "DBFirst_Car_Site\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAqwJ4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAiwJ4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T11:32:54.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:32:54.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Views\\Search\\Index.cshtml",
               "RelativeDocumentMoniker": "DBFirst_Car_Site\\Views\\Search\\Index.cshtml",
               "ToolTip": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Views\\Search\\Index.cshtml",
               "RelativeToolTip": "DBFirst_Car_Site\\Views\\Search\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T09:29:24.658Z"
+              "WhenOpened": "2026-03-14T09:29:24.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,13 +94,13 @@
               "RelativeDocumentMoniker": "DBFirst_Car_Site\\Controllers\\SearchController.cs",
               "ToolTip": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Controllers\\SearchController.cs",
               "RelativeToolTip": "DBFirst_Car_Site\\Controllers\\SearchController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAArwBkAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAArwBkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T09:26:53.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\buryk\\source\\repos\\DBFirst_Car_Site\\DBFirst_Car_Site\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DBFirst_Car_Site\\Views\\Shared\\_Layout.cshtml",
@@ -92,8 +108,7 @@
               "RelativeToolTip": "DBFirst_Car_Site\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T09:23:56.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:23:56.258Z"
             }
           ]
         }
