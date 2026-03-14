@@ -8,15 +8,17 @@
 
         public string City { get; set; }
 
-        public string Number { get; set; }
+        public int NumberCode { get; set; }
 
-        Person() {
+        public string Phone { get; set; }
 
+        Person(int age) {
+            this.Age = age;
         }
 
         public void Print()
         {
-            Console.Write("Персона");
+            Console.Error.WriteLine("Не персона");
         }
 
     }
