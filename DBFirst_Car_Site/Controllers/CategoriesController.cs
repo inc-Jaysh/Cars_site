@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace DBFirst_Car_Site.Controllers
 {
@@ -169,6 +170,23 @@ namespace DBFirst_Car_Site.Controllers
             }
 
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        [HttpPost]
+        public ActionResult CatList(string searchText)
+        {
+            IEnumerable<Category> filteredBooks = null;
+
+            if (searchText != null)
+                filteredBooks = from p in _context.Categories
+                                where p.Description.Contains(searchText)
+                                select p;
+            else
+                filteredBooks = from p in _context.Categories
+                                select p;
+
+            return PartialView(filteredBooks);
         }
 
         private bool CategoryExists(int id)

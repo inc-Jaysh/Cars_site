@@ -13,9 +13,15 @@
     </script>
 }
 
+<form data-ajax="true" data-ajax-method="post" data-ajax-url="/Categories/CatList" data-ajax-update="#results" data-ajax-confirm="Are you sure?">
+    <input type="text" name="searchText" />
+    <input type="submit" value="Поиск" />
+</form>
+
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<div id="results">
 <table class="table">
     <thead>
         <tr>
@@ -52,3 +58,4 @@
 }
     </tbody>
 </table>
+</div>
