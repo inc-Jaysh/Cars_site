@@ -2,5 +2,6 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
-/DBFirst_Car_Site/obj/Debug/net10.0
-/.vs/DBFirst_Car_Site.slnx/FileContentIndex
+/DBFirst_Car_Site/obj
+/DBFirst_Car_Site/bin
+/.vs
