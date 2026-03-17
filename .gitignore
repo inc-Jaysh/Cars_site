@@ -1,0 +1,9 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DBFirst_Car_Site.slnx/FileContentIndex/584d2225-61b5-425e-99dd-02f999b0788c.vsidx
+/.vs/DBFirst_Car_Site.slnx/FileContentIndex/9d8cf90f-1ece-4e13-8c6d-4c27ad00700a.vsidx
+/DBFirst_Car_Site/bin/Debug/net10.0/DBFirst_Car_Site.dll
+/DBFirst_Car_Site/bin/Debug/net10.0/DBFirst_Car_Site.exe
+/DBFirst_Car_Site/obj/Debug/net10.0/DBFirst_.C21A7FB5.Up2Date
