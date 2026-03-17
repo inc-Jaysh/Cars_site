@@ -5,3 +5,7 @@
 /.vs
 /DBFirst_Car_Site/bin
 /DBFirst_Car_Site/obj
+/DBFirst_Car_Site/obj/Debug
+/DBFirst_Car_Site/obj/Debug/net10.0/DBFirst_Car_Site.AssemblyInfo.cs
+/DBFirst_Car_Site/obj/Debug/net10.0/DBFirst_Car_Site.AssemblyInfoInputs.cache
+/DBFirst_Car_Site/obj/Debug/net10.0/rpswa.dswa.cache.json
