@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBFirst_Car_Site")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deae75d675d09912efa75855e3e687ac5d85b7db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a052e282c40b88cf8e754cab4d90d3ddcb0f3f28")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBFirst_Car_Site")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBFirst_Car_Site")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
